@@ -1,0 +1,506 @@
+body {
+	min-height: 100%;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+}
+
+.disabled {
+	pointer-events: none;
+	cursor: default;
+}
+
+.mobile-nav-menu {
+	display: none;
+}
+
+.mobile-nav-menu a {
+	text-decoration: none;
+}
+
+.mobile-nav-menu a:hover {
+	text-decoration: none;
+}
+
+.navbar {
+	min-height: 100px;
+}
+
+.navbar-default {
+	background-color: rgba(255,255,255,1.0);
+	padding-top: 8px;
+	box-sizing: border-box;
+}
+
+#nav-logo {
+	margin-right: 30px;
+	display: inline-block;
+	float: left;
+}
+
+.navbar .dropdown-toggle {
+	color: #FF6666;
+	background-color: #FFF;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.nav-links {
+	margin-top: 25px;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #FF6666;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: #E65C5C;
+}
+
+.nav-mobile-btn {
+	display: none;
+}
+
+.right-soc-link {
+	margin: 19px 0;
+}
+
+.right-link img{
+	max-height: 55px;
+	margin-top: 7px;
+}
+
+.navbar-right {
+	width: 40%;
+	padding-top: 14px;
+}
+
+.searchbar {
+	margin-right: 4px;
+}
+
+.row-marg {
+	margin-top: 10px;
+}
+
+.title-1 {
+	font-family: "Raleway", sans-serif;
+	color: #FF6666;
+	border-right: 2px #67c8ca solid;
+}
+
+.title-1s {
+	font-family: "Raleway", sans-serif;
+	color: #FF6666;
+}
+
+.title-2 {
+	font-family: "Raleway", sans-serif;
+}
+
+.img-carousel {
+	margin: 65px auto 0;
+}
+
+.rest-address {
+	font-size: 18px;
+}
+
+.rest-logo-md img {
+	max-height: 100px;
+	float: right;
+}
+.asst-icon {
+	height: 65px;
+	box-sizing: border-box;
+	margin: 0 5px;
+	padding: 0 7px;
+}
+
+.asst-icon img {
+	display: block;
+	height: 40px;
+	width: 40px;
+	margin: 0 auto;
+}
+
+.asst-icon p {
+	display: block;
+	width: 100%;
+}
+
+.icon-trans p{
+	margin-left: -9px;
+}
+
+.chalkboard {
+	height: 500px;
+	background-image:url(../img/chalkboard_wood.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding-top: 25px;
+}
+
+.chalk-text {
+	width: 90%;
+	height: 450px;
+	margin: 0 auto;
+	background-color: #3f3f3f;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	color: #FFF;
+	padding: 15px;
+}
+
+.chalkboard-mobile {
+	display: none;
+}
+
+.top-head-fix {
+	margin-top: 0px;
+}
+
+.restMore {
+	margin-top: -20px;
+}
+
+.detail-para {
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.detail-source {
+	padding-left: 15px;
+	margin-top: -10px; 
+	box-sizing: border-box;
+}
+
+.detail-title{
+	padding: 0 15px 15px;
+	box-sizing: border-box;
+	color: #67c8ca;
+}
+
+.navbar-inverse {
+	min-height: 50px;
+	margin: 25px 0 0 0;
+	border-radius: 0;
+}
+
+@media screen and (max-width: 1200px) {
+
+	.searchbar {
+		max-width: 235px;
+	}
+
+	.title-1 h2 {
+		font-size: 24px;
+	}
+
+	.title-2 h2 {
+		margin: 15px 0px;
+	}
+
+	.title-2 h2 small {
+		font-size: 17px;
+	}
+
+	.asst-icon {
+		margin: 0px 2px;
+	}
+
+	.icon-trans p {
+		margin-left: -11px;
+	}
+
+	.form-control::-moz-placeholder {
+  		font-size: 12px;
+	}
+	.form-control:-ms-input-placeholder {
+  		font-size: 12px;
+	}
+	.form-control::-webkit-input-placeholder {
+  		font-size: 12px;
+	}
+
+	.chalkboard-mobile {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 994px) {
+
+	.site-body {
+		display: block;
+		position: relative;
+		left: 0;
+	}
+
+	.mobile-nav-menu li {
+		cursor: pointer;
+	}
+
+	.searchbar-space {
+		display: none;
+	}
+
+	.navbar-right {
+		width: 400px;
+	}
+
+	.input-group {
+		max-width: 235px;
+	}
+
+	.searchbar {
+		width: 245px;
+	}
+	
+	.title-1 {
+		border: none;
+	}
+
+	.title-1 h2 {
+		font-size: 30px;
+	}
+
+	.title-2 h2 {
+		margin: 15px 0px;
+	}
+
+	.title-2 h2 small {
+		font-size: 18px;
+	}
+
+	.fav-pic {
+		display: block;
+		width: auto;
+		height: 100%;
+		margin: 0 auto;
+	}
+
+	.smallfix {
+		width: auto;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.smallfix img{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.fav-text {
+		display: inline-block;
+		max-width: 100%;
+	}
+
+	.asst-icon {
+		width: 85px;
+		box-sizing: border-box;
+		display: inline-block;
+		margin: 15px 20px
+	}
+
+	.asst-icon:nth-child(4) {
+		margin-left: 83px;
+	}
+
+	.icon-trans p{
+		margin-left: 0px;
+	}
+
+	.icon-row {
+		width: 600px;
+		margin: 0 auto;
+	}
+
+	.icon-row .space {
+		display: none;
+	}
+
+	.mobile-icon-align {
+		width: 386px;
+		margin: 0 auto;
+	}
+
+	.rest-logo-md {
+		float: left;
+	}
+
+	.chalkboard {
+		display: none;
+	}
+
+	.chalkboard-mobile {
+		display: block;
+		max-width: 350px;
+		margin: 0 auto;
+	}
+
+	.restMore {
+		margin-top: 0;
+	}
+
+	.more-info {
+		text-align: center;
+	}
+
+	.img-carousel {
+		max-width: 450px;
+		margin: 0 auto;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	.mobile-nav-menu {
+		display: block;
+		height: 100%;
+		width: 285px;
+		position: fixed;
+		left: -285px;
+		background-color: #FF6666;
+		border-right: 4px #67c8ca solid;
+		z-index: 1010;
+	}	
+
+	.mobile-nav-menu ul {
+		margin: 5px 0;
+		display: block;
+		padding: 0;
+	}
+
+	.mobile-nav-menu li {
+		display: block;
+		list-style-type: none;
+		color: #FFF;
+		height: 50px;
+		width: 100%;
+		box-sizing: border-box;
+		border-bottom: 2px #FFF solid;
+		padding: 12px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 500;
+		font-size: 16px;
+		cursor: pointer;
+	}
+
+	.navbar-static-top ul {
+		display: none;
+		height: 100px;
+	}
+
+	.navbar .dropdown {
+		display: none;
+	}
+
+	.nav-logo-contain {
+		width: auto;
+		display: block;
+		margin: -34px auto 0;
+	}
+
+	.nav-mobile-btn {
+		display: inline-block;
+		position: relative;
+		top: 33px;
+	}
+
+	#nav-logo {
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.searchbar-space {
+		display: none;
+	}
+
+	.navbar-right {
+		display: none;
+	}
+
+	.title-1 {
+		border: none;
+	}
+
+	.title-1 h2 {
+		font-size: 30px;
+	}
+
+	.title-2 h2 {
+		margin: 15px 0px;
+	}
+
+	.title-2 h2 small {
+		font-size: 18px;
+	}
+
+	.icon-row .space {
+		display: none;
+	}
+
+	.asst-icon {
+		width: 85px;
+		box-sizing: border-box;
+		display: inline-block;
+		margin: 15px 10px
+	}
+
+	.asst-icon:nth-child(4) {
+		margin-left: 63px;
+	}
+
+	.icon-trans p {
+		margin-left: 0px;
+	}
+
+	.icon-row {
+		width: auto;
+		margin: 0 auto;
+	}
+
+	.mobile-icon-align {
+		width: 386px;
+		margin: 0 auto;
+	}
+
+	.rest-logo-md {
+		float: left;
+	}
+
+	.chalkboard {
+		display: none;
+	}
+
+	.chalkboard-mobile {
+		display: block;
+		max-width: 350px;
+		margin: 0 auto;
+	}
+
+	.restMore {
+		margin-top: 0;
+	}
+
+	.more-info {
+		text-align: center;
+	}
+
+	.img-carousel {
+		max-width: 450px;
+		margin: 0 auto;
+	}
+
+}

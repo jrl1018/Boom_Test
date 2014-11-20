@@ -1,0 +1,361 @@
+
+h1, h2, h3 {
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+}
+
+.disabled {
+	pointer-events: none;
+	cursor: default;
+}
+
+.mobile-nav-menu {
+	display: none;
+}
+
+.mobile-nav-menu a {
+	text-decoration: none;
+}
+
+.mobile-nav-menu a:hover {
+	text-decoration: none;
+}
+
+.navbar {
+	min-height: 100px;
+}
+
+.navbar-default {
+	background-color: rgba(255,255,255,1.0);
+}
+
+#nav-logo {
+	margin-right: 30px;
+	display: inline-block;
+	float: left;
+}
+
+.navbar .dropdown-toggle {
+	color: #FF6666;
+	background-color: #FFF;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.nav-links {
+	margin-top: 25px;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #FF6666;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: #E65C5C;
+}
+
+.nav-mobile-btn {
+	display: none;
+}
+
+
+.right-soc-link {
+	margin: 19px 0;
+}
+
+.right-link img{
+	max-height: 55px;
+	margin-top: 7px;
+}
+
+.jumbotron {
+	background-image: url(../img/vineyard_jumbo.jpg);
+	background-position: 0% 55%;
+	color: #FFF;
+	text-shadow: -1px 2px #444444;
+}
+
+.jumbotron h1 {
+	font-size: 46px;
+}
+
+.jumbotron h2 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.jumbotron p {
+	font-size: 18px;
+}
+
+.food-wine-option p {
+	margin-top: 8px;
+	font-size: 14px;
+}
+
+.food-wine-option a {
+	color: #FF6666;
+	text-shadow: 1px 1px #444444;
+	font-weight: 700;
+}
+
+.row-marg {
+	margin-top: 10px;
+}
+
+.title-1 {
+	font-family: "Raleway", sans-serif;
+	color: #FF6666;
+	border-right: 2px #67c8ca solid;
+}
+
+.title-2 {
+	font-family: "Raleway", sans-serif;
+}
+
+.fav-row {
+	border-bottom: 1px #e7e7e7 solid;
+}
+
+.fav-pic {
+	width:100%;
+	height: 200px;
+	overflow: hidden; 
+}
+
+.fav-img {
+	height:150px;
+	margin: 0 ;
+}
+
+.fav-text {
+	width: 100%;
+	height: 225px;
+	padding: 10px 5px;
+}
+
+.column-fix{
+	margin-top:0;
+}
+
+.news-row .title-1 {
+	padding-right: 0px;
+	margin-right: 0px;
+	box-sizing: content-box;
+}
+
+.news {
+	height: 350px;
+}
+
+.news-pic {
+	height:200px;
+	width: 100%;
+}
+
+.news-text {
+	width: 100%;
+	height: 150px;
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+
+.navbar-inverse {
+	min-height: 50px;
+	margin: 25px 0 0 0;
+	border-radius: 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+	.title-1 h2 {
+		font-size: 24px;
+	}
+
+	.title-2 h2 {
+		margin: 15px 0px;
+	}
+
+	.title-2 h2 small {
+		font-size: 17px;
+	}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 994px) {
+
+	.site-body {
+		display: block;
+		position: relative;
+		left: 0;
+	}
+
+	.mobile-nav-menu li {
+		cursor: pointer;
+	}
+	
+	.title-1 {
+		border: none;
+	}
+
+	.title-1 h2 {
+		font-size: 30px;
+	}
+
+	.title-2 h2 {
+		margin: 15px 0px;
+	}
+
+	.title-2 h2 small {
+		font-size: 18px;
+	}
+
+	.fav-pic {
+		display: block;
+		width: auto;
+		height: 100%;
+		margin: 0 auto;
+	}
+
+	.smallfix {
+		width: auto;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.smallfix img{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.fav-text {
+		display: inline-block;
+		max-width: 100%;
+	}
+
+	.news-twitter {
+		display: block;
+		width: 350px;
+		margin: 0 auto;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	.mobile-nav-menu {
+		display: block;
+		height: 100%;
+		width: 285px;
+		position: fixed;
+		left: -285px;
+		background-color: #FF6666;
+		border-right: 4px #67c8ca solid;
+		z-index: 1010;
+		background-image: url(../img/Boom-boomerang.png);
+	}	
+
+	.mobile-nav-menu ul {
+		margin: 5px 0;
+		display: block;
+		padding: 0;
+	}
+
+	.mobile-nav-menu li {
+		display: block;
+		list-style-type: none;
+		color: #FFF;
+		height: 50px;
+		width: 100%;
+		box-sizing: border-box;
+		border-bottom: 2px #FFF solid;
+		padding: 12px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 500;
+		font-size: 16px;
+		cursor: pointer;
+	}
+
+	.navbar-static-top ul {
+		display: none;
+		height: 100px;
+	}
+
+	.nav-logo-contain {
+		width: auto;
+		display: block;
+		margin: -34px auto 0;
+	}
+
+	.nav-mobile-btn {
+		display: inline-block;
+		position: relative;
+		top: 33px;
+	}
+
+	#nav-logo {
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.navbar .dropdown-toggle {
+		display: none;
+	}
+
+	.jumbotron h1 {
+		font-size: 30px;
+	}
+
+	.jumbotron h2 {
+		font-size: 22px;
+	}
+
+	.title-1 {
+		border: none;
+	}
+
+	.title-1 h2 {
+		font-size: 30px;
+	}
+
+	.title-2 h2 {
+		margin: 15px 0px;
+	}
+
+	.title-2 h2 small {
+		font-size: 18px;
+	}
+
+	.fav-pic {
+		display: block;
+		width: auto;
+		height: 100%;
+		margin: 0 auto;
+	}
+
+	.smallfix {
+		width: auto;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.smallfix img{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.fav-text {
+		display: inline-block;
+		max-width: 100%;
+	}
+
+	.news-twitter {
+		display: block;
+		width: 350px;
+		margin: 0 auto;
+	}
+
+}

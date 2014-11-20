@@ -1,0 +1,306 @@
+body {
+  min-height: 100%;
+}
+
+h1, h2, h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.mobile-nav-menu {
+  display: none;
+}
+
+.mobile-nav-menu a {
+  text-decoration: none;
+}
+
+.mobile-nav-menu a:hover {
+  text-decoration: none;
+}
+
+.navbar {
+  min-height: 100px;
+}
+
+.navbar-default {
+  background-color: rgba(255,255,255,1.0);
+  padding-top: 8px;
+  box-sizing: border-box;
+}
+
+#nav-logo {
+  margin-right: 30px;
+  display: inline-block;
+  float: left;
+}
+
+.navbar .dropdown-toggle {
+  color: #FF6666;
+  background-color: #FFF;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.nav-links {
+  margin-top: 25px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #FF6666;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #E65C5C;
+}
+
+.nav-mobile-btn {
+  display: none;
+}
+
+.right-soc-link {
+  margin: 19px 0;
+}
+
+.right-link img{
+  max-height: 55px;
+  margin-top: 7px;
+}
+
+.row-marg {
+  margin-top: 10px;
+}
+
+.title-1 {
+  font-family: "Raleway", sans-serif;
+  color: #FF6666;
+  border-right: 2px #67c8ca solid;
+}
+
+.title-1s h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #67c8ca;
+  display: inline-block;
+}
+
+.title-2 {
+  padding-top: 10px;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+.title-2 h2 {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.title-2 button {
+  margin-bottom: 10px;
+}
+
+.toggler {
+  cursor: pointer;
+}
+
+.show-hide {
+  margin: 0 0 10px 20px;
+  display: none;
+}
+
+.selection-name {
+  margin: 10px 20px;
+}
+
+.buttonrow {
+  margin: 30px 20px 20px 20px;
+}
+
+.row-selections .btn {
+  width: 100%;
+}
+
+.update-1 {
+  margin: 0;
+  width: 100%;
+}
+
+.col-md-3.title-2 {
+  padding: 18px 12px 0 ;
+}
+
+.update-2 {
+  width: 100%;
+}
+
+.navbar-inverse {
+  min-height: 50px;
+  margin: 25px 0 0 0;
+  border-radius: 0;
+}
+
+.show-hide {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .title-1 h2 {
+    font-size: 24px;
+  }
+
+  .title-2 h2 {
+    margin: 15px 0px;
+  }
+
+  .title-2 h2 small {
+    font-size: 17px;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 994px) {
+
+  .site-body {
+    display: block;
+    position: relative;
+    left: 0;
+  }
+
+  .mobile-nav-menu li {
+    cursor: pointer;
+  }
+  
+  .title-1 {
+    border: none;
+  }
+
+  .title-1 h2 {
+    font-size: 30px;
+  }
+
+  .title-2 h2 {
+    margin: 15px 0px;
+  }
+
+  .title-2 h2 small {
+    font-size: 18px;
+  }
+
+  .btn {
+    display: block;
+  }
+
+  .show-hide {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .mobile-nav-menu {
+    display: block;
+    height: 100%;
+    width: 285px;
+    position: fixed;
+    left: -285px;
+    background-color: #FF6666;
+    border-right: 4px #67c8ca solid;
+    z-index: 1010;
+    background-image: url(../img/Boom-boomerang.png);
+  } 
+
+  .mobile-nav-menu ul {
+    margin: 5px 0;
+    display: block;
+    padding: 0;
+  }
+
+  .mobile-nav-menu li {
+    display: block;
+    list-style-type: none;
+    color: #FFF;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px #FFF solid;
+    padding: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .navbar-static-top ul {
+    display: none;
+    height: 100px;
+  }
+
+  .nav-logo-contain {
+    width: auto;
+    display: block;
+    margin: -34px auto 0;
+  }
+
+  .nav-mobile-btn {
+    display: inline-block;
+    position: relative;
+    top: 33px;
+  }
+
+  .navbar .dropdown-toggle {
+    display: none;
+  }
+
+  #nav-logo {
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .title-1 {
+    border: none;
+  }
+
+  .title-1 h2 {
+    font-size: 30px;
+  }
+
+  .title-2 h2 {
+    margin: 15px 0px;
+  }
+
+  .title-2 h2 small {
+    font-size: 18px;
+  }
+
+  .btn {
+    display: block;
+  }
+
+  .row-selections {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .row-selections .btn {
+    width: 90%;
+    margin: 10 auto;
+  }
+
+  .row-selections .btn:last-child {
+    margin-bottom: 0;
+  }
+
+  .show-hide {
+    display: none;
+  }
+
+}
